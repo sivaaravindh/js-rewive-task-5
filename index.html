@@ -4,23 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>print time  using setTimeout</title>
-    <style>
-        .form{
-            width:50%;
-            margin:auto;
-        }
-        label{
-            width:50%;
-        }
-        input{
-            width:50%; 
-        }
-    </style>
+    <link rel="stylesheet" href="style.css"></link>
+    <title>marks</title>
 </head>
 <body>
     <div class="container">
-        <h1 style="text-align:center;">BMI CALCULATOR</h1>
+    <div class="row">
+        <h1 style="text-align:center;">EXAM MARK</h1>
         <div class="form">
             <fieldset>
 
@@ -41,25 +31,25 @@
                 </div>
 
                 <div style="display:flex; margin-top: 10px;">
-                    <label for="science">science:</label>
+                    <label for="science">Science:</label>
                     <input type="text" id="science" placeholder="Enter the Science mark"><br>
                 </div>
 
                 <div style="display:flex; margin-top: 10px;">
-                    <label for="social">social science:</label>
+                    <label for="social">Social science:</label>
                     <input type="social" id="social" placeholder="Enter the social science Mark"><br>
                 </div>
                 
         
 
                 <div style="display:flex; margin-top: 10px;">
-                    <label for="total">total:</label>
+                    <label for="total">Average score:</label>
                     <input type="social" id="total" ><br>
                 </div>
 
                 <div style="display:flex; margin-top: 10px;">
-                    <label for="crate">score:</label>
-                    <input type="social" id="crate" ><br>
+                    <label for="crate">Grade:</label>
+                    <div id="grate" ></div><br>
                 </div>
                 <div style="text-align:center;  margin-top: 20px;"> 
                     <button id="btn">submitt</button>
@@ -68,7 +58,7 @@
         </div>
         <p id="con" style="text-align:center;"></p>
 </div>
-
+</div>
     <script src="main.js"></script>
 </body>
 </html>

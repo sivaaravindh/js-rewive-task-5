@@ -8,28 +8,36 @@ var sub3=parseInt (document.getElementById("maths").value);
 var sub4=parseInt (document.getElementById("science").value);
 var sub5=parseInt (document.getElementById("social").value);
 
-let x=sub1+sub2+sub3+sub4+sub5;
-let a=x/ 5;
+var x=sub1+sub2+sub3+sub4+sub5;
+var a=x/ 5;
 
 console.log(a);
 
 if(a>90){
-  document.getElementById("crate").innerText="  A+ ";
+ document.getElementById("total").value=a;
+document.getElementById("grate").innerText="A+ " +a;
+
+ 
 }
 else if(a<90 && a>=80){
-  document.getElementById("crate").innerText="A ";
+  document.getElementById("total").value=a;
+  document.getElementById("grate").innerText="A ";
 }
 else if(a<80 && a>=70){
-  document.getElementById("crate").innerText=" B";
+  document.getElementById("total").value=a;
+  document.getElementById("grate").innerText=" B";
 }
 else if(a<70 && a>=60){
-  document.getElementById("crate").innerText="C ";
+  document.getElementById("total").value=a;
+  document.getElementById("grate").innerText="C ";
 }
 else if(a<60 && a>=40){
-  document.getElementById("crate").innerText="D ";
+  document.getElementById("total").value=a;
+  document.getElementById("grate").innerText="D ";
 }
 else{
-  document.getElementById("crate").innerText=" F";
+  document.getElementById("total").value=a;
+  document.getElementById("grate").innerText=" F";
 
 }
 

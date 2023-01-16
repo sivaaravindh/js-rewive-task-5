@@ -1,0 +1,37 @@
+.container{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    width:85%;
+    margin:auto;
+    background-color: #ebeb28d4;
+    color:red;
+    border-radius: 0 25px 0 25px;
+    padding:20px;
+    box-shadow:rgba(0, 0 ,0 , 0.5) -20px 30px 25px -10px;
+}
+.row{
+    background-color: #efc989;
+    width:70%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+label{
+    width:50%;
+}
+input{
+    width:51%; 
+    border: 2px solid #0000ff85;
+     padding: 8px;
+}
+#grate{
+    width:51%;
+    background-color: white;
+    height: 20px;
+    border: 2px solid #0cac2685;
+    padding: 6px;
+    color:black;
+}
